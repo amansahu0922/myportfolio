@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar Sahu | Engineer & Developer</title>
+    <meta name="description" content="Aman Kumar Sahu - Python & Machine Learning Developer | Sports Car Themed Portfolio">
+    <meta name="keywords" content="Aman Kumar Sahu, Python Developer, Machine Learning, Portfolio, Sports Car Theme">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="speedometer">
+                <div class="needle"></div>
+            </div>
+            <div class="loading-text">ENGINE STARTING...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">AKS</span>
+                <span class="logo-sub">PORTFOLIO</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="racing-lines"></div>
+            <div class="particle-system"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Aman Kumar Sahu</span></h1>
+                <h2 class="hero-subtitle">Engineer | Python & Machine Learning Developer</h2>
+                <p class="hero-description">Precision coding meets high-performance development. Building the future at racing speed.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-car">
+                <div class="car-silhouette"></div>
+                <div class="speed-trail"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">DRIVE DOWN</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-circle">
+                        <div class="profile-ring"></div>
+                        <img src="assets/profile-picture.jpg" alt="Aman Kumar Sahu" class="profile-picture" onerror="this.style.display='none'; this.parentNode.querySelector('.profile-initials').style.display='flex';">
+                        <div class="profile-initials">AK</div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-name">Aman Kumar Sahu</h3>
+                    <p class="about-bio" id="about-bio">Engineer and passionate developer specializing in Python, Machine Learning, and cutting-edge technologies. I combine technical expertise with creative problem-solving to build high-performance solutions.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" id="github-repos">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="github-stars">0</div>
+                            <div class="stat-label">Stars</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="languages">5+</div>
+                            <div class="stat-label">Languages</div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/aman-kumar-sahu" target="_blank" class="social-btn" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aman-kumar-sahu-ab57a4276/" target="_blank" class="social-btn" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/aman_sahu0925/" target="_blank" class="social-btn" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@AKSVlogs-g7l" target="_blank" class="social-btn" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="tachometer-container">
+                    <div class="tachometer">
+                        <div class="tachometer-face">
+                            <div class="tachometer-needle"></div>
+                            <div class="tachometer-center"></div>
+                        </div>
+                        <div class="tachometer-label">Performance Level</div>
+                    </div>
+                </div>
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Skills will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Highlights</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="achievements-grid" id="achievements-grid">
+                <!-- Achievements will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Let's Build Something Fast</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7205450434</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>amankumarsahu5678@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>India</span>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://github.com/aman-kumar-sahu" target="_blank" class="contact-social">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aman-kumar-sahu-ab57a4276/" target="_blank" class="contact-social">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/aman_sahu0925/" target="_blank" class="contact-social">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@AKSVlogs-g7l" target="_blank" class="contact-social">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-quote">
+                    <p>"Driven by Speed. Built for Precision."</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/aman-kumar-sahu" target="_blank" class="footer-social">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aman-kumar-sahu-ab57a4276/" target="_blank" class="footer-social">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/aman_sahu0925/" target="_blank" class="footer-social">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@AKSVlogs-g7l" target="_blank" class="footer-social">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2026 Aman Kumar Sahu. All rights reserved.</p>
+                </div>
+            </div>
+            <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
